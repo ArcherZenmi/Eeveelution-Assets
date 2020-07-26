@@ -1,0 +1,74 @@
+[gd_scene load_steps=35 format=2]
+
+[ext_resource path="res://eeveelution_sprites/eevee/down left/hurt/down left hurt.tres" type="Animation" id=1]
+[ext_resource path="res://eeveelution_sprites/eevee/down/hurt/down hurt.tres" type="Animation" id=2]
+[ext_resource path="res://eeveelution_sprites/eevee/down/attack/down attack.tres" type="Animation" id=3]
+[ext_resource path="res://eeveelution_sprites/pmd_sprite.gd" type="Script" id=4]
+[ext_resource path="res://eeveelution_sprites/eevee/right/hurt/right hurt.tres" type="Animation" id=5]
+[ext_resource path="res://eeveelution_sprites/eevee/down/move/down move.tres" type="Animation" id=6]
+[ext_resource path="res://eeveelution_sprites/eevee/left/attack/left attack.tres" type="Animation" id=7]
+[ext_resource path="res://eeveelution_sprites/eevee/left/move/left move.tres" type="Animation" id=8]
+[ext_resource path="res://eeveelution_sprites/eevee/up right/move/up right move.tres" type="Animation" id=9]
+[ext_resource path="res://eeveelution_sprites/eevee/up left/attack/up left attack.tres" type="Animation" id=10]
+[ext_resource path="res://eeveelution_sprites/eevee/up left/move/up left move.tres" type="Animation" id=11]
+[ext_resource path="res://eeveelution_sprites/eevee/right/idle/right idle.tres" type="Animation" id=12]
+[ext_resource path="res://eeveelution_sprites/eevee/right/move/right move.tres" type="Animation" id=13]
+[ext_resource path="res://eeveelution_sprites/eevee/up right/attack/up right attack.tres" type="Animation" id=14]
+[ext_resource path="res://eeveelution_sprites/eevee/up right/hurt/up right hurt.tres" type="Animation" id=15]
+[ext_resource path="res://eeveelution_sprites/eevee/up right/idle/up right idle.tres" type="Animation" id=16]
+[ext_resource path="res://eeveelution_sprites/eevee/down/idle/1.png" type="Texture" id=17]
+[ext_resource path="res://eeveelution_sprites/eevee/down/idle/down idle.tres" type="Animation" id=18]
+[ext_resource path="res://eeveelution_sprites/eevee/up left/hurt/up left hurt.tres" type="Animation" id=19]
+[ext_resource path="res://eeveelution_sprites/eevee/right/attack/right attack.tres" type="Animation" id=20]
+[ext_resource path="res://eeveelution_sprites/eevee/left/hurt/left hurt.tres" type="Animation" id=21]
+[ext_resource path="res://eeveelution_sprites/eevee/up/idle/up idle.tres" type="Animation" id=22]
+[ext_resource path="res://eeveelution_sprites/eevee/left/idle/left idle.tres" type="Animation" id=23]
+[ext_resource path="res://eeveelution_sprites/eevee/up/hurt/up hurt.tres" type="Animation" id=24]
+[ext_resource path="res://eeveelution_sprites/eevee/down left/move/down left move.tres" type="Animation" id=25]
+[ext_resource path="res://eeveelution_sprites/eevee/up/move/up move.tres" type="Animation" id=26]
+[ext_resource path="res://eeveelution_sprites/eevee/down right/hurt/down right hurt.tres" type="Animation" id=27]
+[ext_resource path="res://eeveelution_sprites/eevee/down left/idle/down left idle.tres" type="Animation" id=28]
+[ext_resource path="res://eeveelution_sprites/eevee/up left/idle/up left idle.tres" type="Animation" id=29]
+[ext_resource path="res://eeveelution_sprites/eevee/down right/idle/down right idle.tres" type="Animation" id=30]
+[ext_resource path="res://eeveelution_sprites/eevee/down right/attack/down right attack.tres" type="Animation" id=31]
+[ext_resource path="res://eeveelution_sprites/eevee/down left/attack/down left attack.tres" type="Animation" id=32]
+[ext_resource path="res://eeveelution_sprites/eevee/down right/move/down right move.tres" type="Animation" id=33]
+[ext_resource path="res://eeveelution_sprites/eevee/up/attack/up attack.tres" type="Animation" id=34]
+
+[node name="eevee" type="Sprite"]
+texture = ExtResource( 17 )
+script = ExtResource( 4 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+"anims/down attack" = ExtResource( 3 )
+"anims/down hurt" = ExtResource( 2 )
+"anims/down idle" = ExtResource( 18 )
+"anims/down left attack" = ExtResource( 32 )
+"anims/down left hurt" = ExtResource( 1 )
+"anims/down left idle" = ExtResource( 28 )
+"anims/down left move" = ExtResource( 25 )
+"anims/down move" = ExtResource( 6 )
+"anims/down right attack" = ExtResource( 31 )
+"anims/down right hurt" = ExtResource( 27 )
+"anims/down right idle" = ExtResource( 30 )
+"anims/down right move" = ExtResource( 33 )
+"anims/left attack" = ExtResource( 7 )
+"anims/left hurt" = ExtResource( 21 )
+"anims/left idle" = ExtResource( 23 )
+"anims/left move" = ExtResource( 8 )
+"anims/right attack" = ExtResource( 20 )
+"anims/right hurt" = ExtResource( 5 )
+"anims/right idle" = ExtResource( 12 )
+"anims/right move" = ExtResource( 13 )
+"anims/up attack" = ExtResource( 34 )
+"anims/up hurt" = ExtResource( 24 )
+"anims/up idle" = ExtResource( 22 )
+"anims/up left attack" = ExtResource( 10 )
+"anims/up left hurt" = ExtResource( 19 )
+"anims/up left idle" = ExtResource( 29 )
+"anims/up left move" = ExtResource( 11 )
+"anims/up move" = ExtResource( 26 )
+"anims/up right attack" = ExtResource( 14 )
+"anims/up right hurt" = ExtResource( 15 )
+"anims/up right idle" = ExtResource( 16 )
+"anims/up right move" = ExtResource( 9 )

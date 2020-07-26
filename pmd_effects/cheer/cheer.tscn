@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://pmd_effects/cheer/2.png" type="Texture" id=1]
+[ext_resource path="res://pmd_effects/cheer/1.png" type="Texture" id=2]
+
+
+
+[sub_resource type="SpriteFrames" id=1]
+animations = [ {
+"frames": [ ExtResource( 2 ), ExtResource( 1 ) ],
+"loop": true,
+"name": "cheer",
+"speed": 5.0
+} ]
+
+[node name="cheer" type="AnimatedSprite"]
+frames = SubResource( 1 )
+animation = "cheer"
+frame = 1
+playing = true

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/confused.wav-5f0401dd7f98409588afaeb2ed070e92.sample"
+
+[deps]
+
+source_file="res://pmd_effects/confused/confused.wav"
+dest_files=[ "res://.import/confused.wav-5f0401dd7f98409588afaeb2ed070e92.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=false
+edit/loop=false
+compress/mode=0

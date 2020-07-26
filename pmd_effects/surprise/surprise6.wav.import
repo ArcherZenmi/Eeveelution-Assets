@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/surprise6.wav-b5fccf6155d58bf19051b493edb5b0a8.sample"
+
+[deps]
+
+source_file="res://pmd_effects/surprise/surprise6.wav"
+dest_files=[ "res://.import/surprise6.wav-b5fccf6155d58bf19051b493edb5b0a8.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=false
+edit/loop=false
+compress/mode=0

@@ -1,0 +1,20 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://pmd_effects/chat/1.png" type="Texture" id=1]
+[ext_resource path="res://pmd_effects/chat/2.png" type="Texture" id=2]
+[ext_resource path="res://pmd_effects/chat/3.png" type="Texture" id=3]
+
+
+
+[sub_resource type="SpriteFrames" id=1]
+animations = [ {
+"frames": [ ExtResource( 1 ), ExtResource( 2 ), ExtResource( 3 ), ExtResource( 2 ) ],
+"loop": true,
+"name": "chat",
+"speed": 10.0
+} ]
+
+[node name="chat" type="AnimatedSprite"]
+frames = SubResource( 1 )
+animation = "chat"
+playing = true

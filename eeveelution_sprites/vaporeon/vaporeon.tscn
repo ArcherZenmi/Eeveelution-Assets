@@ -1,0 +1,74 @@
+[gd_scene load_steps=35 format=2]
+
+[ext_resource path="res://pmd_sprites/vaporeon/down/idle/1.png" type="Texture" id=1]
+[ext_resource path="res://pmd_sprites/vaporeon/down/hurt/down hurt.tres" type="Animation" id=2]
+[ext_resource path="res://pmd_sprites/vaporeon/down/attack/down attack.tres" type="Animation" id=3]
+[ext_resource path="res://pmd_sprites/pmd_sprite.gd" type="Script" id=4]
+[ext_resource path="res://pmd_sprites/vaporeon/down/move/down move.tres" type="Animation" id=5]
+[ext_resource path="res://pmd_sprites/vaporeon/down/idle/down idle.tres" type="Animation" id=6]
+[ext_resource path="res://pmd_sprites/vaporeon/down left/hurt/down left hurt.tres" type="Animation" id=12]
+[ext_resource path="res://pmd_sprites/vaporeon/down left/attack/down left attack.tres" type="Animation" id=13]
+[ext_resource path="res://pmd_sprites/vaporeon/down left/move/down left move.tres" type="Animation" id=15]
+[ext_resource path="res://pmd_sprites/vaporeon/down left/idle/down left idle.tres" type="Animation" id=16]
+[ext_resource path="res://pmd_sprites/vaporeon/down right/hurt/down right hurt.tres" type="Animation" id=22]
+[ext_resource path="res://pmd_sprites/vaporeon/down right/attack/down right attack.tres" type="Animation" id=23]
+[ext_resource path="res://pmd_sprites/vaporeon/down right/move/down right move.tres" type="Animation" id=25]
+[ext_resource path="res://pmd_sprites/vaporeon/down right/idle/down right idle.tres" type="Animation" id=26]
+[ext_resource path="res://pmd_sprites/vaporeon/left/hurt/left hurt.tres" type="Animation" id=32]
+[ext_resource path="res://pmd_sprites/vaporeon/left/attack/left attack.tres" type="Animation" id=33]
+[ext_resource path="res://pmd_sprites/vaporeon/left/move/left move.tres" type="Animation" id=35]
+[ext_resource path="res://pmd_sprites/vaporeon/left/idle/left idle.tres" type="Animation" id=36]
+[ext_resource path="res://pmd_sprites/vaporeon/right/hurt/right hurt.tres" type="Animation" id=42]
+[ext_resource path="res://pmd_sprites/vaporeon/right/attack/right attack.tres" type="Animation" id=43]
+[ext_resource path="res://pmd_sprites/vaporeon/right/move/right move.tres" type="Animation" id=45]
+[ext_resource path="res://pmd_sprites/vaporeon/right/idle/right idle.tres" type="Animation" id=46]
+[ext_resource path="res://pmd_sprites/vaporeon/up/hurt/up hurt.tres" type="Animation" id=52]
+[ext_resource path="res://pmd_sprites/vaporeon/up/attack/up attack.tres" type="Animation" id=53]
+[ext_resource path="res://pmd_sprites/vaporeon/up/move/up move.tres" type="Animation" id=55]
+[ext_resource path="res://pmd_sprites/vaporeon/up/idle/up idle.tres" type="Animation" id=56]
+[ext_resource path="res://pmd_sprites/vaporeon/up left/hurt/up left hurt.tres" type="Animation" id=62]
+[ext_resource path="res://pmd_sprites/vaporeon/up left/attack/up left attack.tres" type="Animation" id=63]
+[ext_resource path="res://pmd_sprites/vaporeon/up left/move/up left move.tres" type="Animation" id=65]
+[ext_resource path="res://pmd_sprites/vaporeon/up left/idle/up left idle.tres" type="Animation" id=66]
+[ext_resource path="res://pmd_sprites/vaporeon/up right/hurt/up right hurt.tres" type="Animation" id=72]
+[ext_resource path="res://pmd_sprites/vaporeon/up right/attack/up right attack.tres" type="Animation" id=73]
+[ext_resource path="res://pmd_sprites/vaporeon/up right/move/up right move.tres" type="Animation" id=75]
+[ext_resource path="res://pmd_sprites/vaporeon/up right/idle/up right idle.tres" type="Animation" id=76]
+
+[node name="vaporeon" type="Sprite"]
+texture = ExtResource( 1 )
+script = ExtResource( 4 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+"anims/down attack" = ExtResource( 3 )
+"anims/down hurt" = ExtResource( 2 )
+"anims/down idle" = ExtResource( 6 )
+"anims/down left attack" = ExtResource( 13 )
+"anims/down left hurt" = ExtResource( 12 )
+"anims/down left idle" = ExtResource( 16 )
+"anims/down left move" = ExtResource( 15 )
+"anims/down move" = ExtResource( 5 )
+"anims/down right attack" = ExtResource( 23 )
+"anims/down right hurt" = ExtResource( 22 )
+"anims/down right idle" = ExtResource( 26 )
+"anims/down right move" = ExtResource( 25 )
+"anims/left attack" = ExtResource( 33 )
+"anims/left hurt" = ExtResource( 32 )
+"anims/left idle" = ExtResource( 36 )
+"anims/left move" = ExtResource( 35 )
+"anims/right attack" = ExtResource( 43 )
+"anims/right hurt" = ExtResource( 42 )
+"anims/right idle" = ExtResource( 46 )
+"anims/right move" = ExtResource( 45 )
+"anims/up attack" = ExtResource( 53 )
+"anims/up hurt" = ExtResource( 52 )
+"anims/up idle" = ExtResource( 56 )
+"anims/up left attack" = ExtResource( 63 )
+"anims/up left hurt" = ExtResource( 62 )
+"anims/up left idle" = ExtResource( 66 )
+"anims/up left move" = ExtResource( 65 )
+"anims/up move" = ExtResource( 55 )
+"anims/up right attack" = ExtResource( 73 )
+"anims/up right hurt" = ExtResource( 72 )
+"anims/up right idle" = ExtResource( 76 )
+"anims/up right move" = ExtResource( 75 )

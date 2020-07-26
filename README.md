@@ -11,14 +11,14 @@ The sprite's initial animation can be set via its script variables that are visi
 
 Each sprite comes with three functions:
 
-change_direction(enum): Uses a predefined enum to change direction. E.g "change_direction(EeveeDir.RIGHT)" Enum variables are: EeveeDir.RIGHT, EeveeDir.DOWN_RIGHT, EeveeDir.DOWN, EeveeDir.DOWN_LEFT, EeveeDir.LEFT, EeveeDir.UP_LEFT, EeveeDir.UP, EeveeDir.UP_RIGHT.
+change_direction(enum): Uses a predefined enum to change direction. E.g "$eevee.change_direction($eevee.Dir.RIGHT)" Enum variables are: Dir.RIGHT, Dir.DOWN_RIGHT, Dir.DOWN, Dir.DOWN_LEFT, Dir.LEFT, Dir.UP_LEFT, Dir.UP, Dir.UP_RIGHT.
 
-change_anim_type(enum): Uses a predefined enum to change the animation type. E.g "change_anim_type(EeveeAnim.IDLE)" Enum variables are: EeveeAnim.IDLE, EeveeAnim.MOVE, EeveeAnim.ATTACK, EeveeAnim.HURT.
+change_anim_type(enum): Uses a predefined enum to change the animation type. E.g "$eevee.change_anim_type($eevee.Anim.IDLE)" Enum variables are: Anim.IDLE, Anim.MOVE, Anim.ATTACK, Anim.HURT.
 
-change_direction_vector(Vector2): Uses a Vector2 object to change direction. E.g "change_direction_vector(Vector2(1, 0))".
+change_direction_vector(Vector2): Uses a Vector2 object to change direction. E.g "$eevee.change_direction_vector(Vector2(1, 0))".
 
 # How to use (eeveelution_effects)
-Any sprite with an animation will automatically start when the sprite is shown (its "visible" parameter is set to true).
+Any sprite with an animation will automatically start the animation (and its sound effect) when the sprite is shown (aka when its "visible" parameter is set to true).
 
 A sprite with a non-looping animation will automatically hide itself once the animation finishes.
 

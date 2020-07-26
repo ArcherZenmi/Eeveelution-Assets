@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/worry.wav-6286adaaf6dbeb45eb04560cb719fa64.sample"
+
+[deps]
+
+source_file="res://pmd_effects/worry/worry.wav"
+dest_files=[ "res://.import/worry.wav-6286adaaf6dbeb45eb04560cb719fa64.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=false
+edit/loop=false
+compress/mode=0

@@ -1,0 +1,74 @@
+[gd_scene load_steps=35 format=2]
+
+[ext_resource path="res://pmd_sprites/flareon/down/attack/down attack.tres" type="Animation" id=1]
+[ext_resource path="res://pmd_sprites/flareon/up/move/up move.tres" type="Animation" id=2]
+[ext_resource path="res://pmd_sprites/flareon/down right/move/down right move.tres" type="Animation" id=3]
+[ext_resource path="res://pmd_sprites/pmd_sprite.gd" type="Script" id=4]
+[ext_resource path="res://pmd_sprites/flareon/down right/attack/down right attack.tres" type="Animation" id=5]
+[ext_resource path="res://pmd_sprites/flareon/left/move/left move.tres" type="Animation" id=6]
+[ext_resource path="res://pmd_sprites/flareon/down left/move/down left move.tres" type="Animation" id=7]
+[ext_resource path="res://pmd_sprites/flareon/down/idle/down idle.tres" type="Animation" id=8]
+[ext_resource path="res://pmd_sprites/flareon/up right/attack/up right attack.tres" type="Animation" id=9]
+[ext_resource path="res://pmd_sprites/flareon/down/move/down move.tres" type="Animation" id=10]
+[ext_resource path="res://pmd_sprites/flareon/right/idle/right idle.tres" type="Animation" id=11]
+[ext_resource path="res://pmd_sprites/flareon/right/hurt/right hurt.tres" type="Animation" id=12]
+[ext_resource path="res://pmd_sprites/flareon/left/attack/left attack.tres" type="Animation" id=13]
+[ext_resource path="res://pmd_sprites/flareon/down left/attack/down left attack.tres" type="Animation" id=14]
+[ext_resource path="res://pmd_sprites/flareon/up left/move/up left move.tres" type="Animation" id=15]
+[ext_resource path="res://pmd_sprites/flareon/left/hurt/left hurt.tres" type="Animation" id=16]
+[ext_resource path="res://pmd_sprites/flareon/up right/idle/up right idle.tres" type="Animation" id=17]
+[ext_resource path="res://pmd_sprites/flareon/down right/idle/down right idle.tres" type="Animation" id=18]
+[ext_resource path="res://pmd_sprites/flareon/right/move/right move.tres" type="Animation" id=19]
+[ext_resource path="res://pmd_sprites/flareon/down left/hurt/down left hurt.tres" type="Animation" id=20]
+[ext_resource path="res://pmd_sprites/flareon/up left/hurt/up left hurt.tres" type="Animation" id=21]
+[ext_resource path="res://pmd_sprites/flareon/right/attack/right attack.tres" type="Animation" id=22]
+[ext_resource path="res://pmd_sprites/flareon/left/idle/left idle.tres" type="Animation" id=23]
+[ext_resource path="res://pmd_sprites/flareon/down right/hurt/down right hurt.tres" type="Animation" id=24]
+[ext_resource path="res://pmd_sprites/flareon/up right/hurt/up right hurt.tres" type="Animation" id=25]
+[ext_resource path="res://pmd_sprites/flareon/up left/attack/up left attack.tres" type="Animation" id=26]
+[ext_resource path="res://pmd_sprites/flareon/down left/idle/down left idle.tres" type="Animation" id=27]
+[ext_resource path="res://pmd_sprites/flareon/up right/move/up right move.tres" type="Animation" id=28]
+[ext_resource path="res://pmd_sprites/flareon/up left/idle/up left idle.tres" type="Animation" id=29]
+[ext_resource path="res://pmd_sprites/flareon/down/hurt/down hurt.tres" type="Animation" id=30]
+[ext_resource path="res://pmd_sprites/flareon/up/hurt/up hurt.tres" type="Animation" id=31]
+[ext_resource path="res://pmd_sprites/flareon/down/move/2.png" type="Texture" id=32]
+[ext_resource path="res://pmd_sprites/flareon/up/idle/up idle.tres" type="Animation" id=33]
+[ext_resource path="res://pmd_sprites/flareon/up/attack/up attack.tres" type="Animation" id=34]
+
+[node name="flareon" type="Sprite"]
+texture = ExtResource( 32 )
+script = ExtResource( 4 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+"anims/down attack" = ExtResource( 1 )
+"anims/down hurt" = ExtResource( 30 )
+"anims/down idle" = ExtResource( 8 )
+"anims/down left attack" = ExtResource( 14 )
+"anims/down left hurt" = ExtResource( 20 )
+"anims/down left idle" = ExtResource( 27 )
+"anims/down left move" = ExtResource( 7 )
+"anims/down move" = ExtResource( 10 )
+"anims/down right attack" = ExtResource( 5 )
+"anims/down right hurt" = ExtResource( 24 )
+"anims/down right idle" = ExtResource( 18 )
+"anims/down right move" = ExtResource( 3 )
+"anims/left attack" = ExtResource( 13 )
+"anims/left hurt" = ExtResource( 16 )
+"anims/left idle" = ExtResource( 23 )
+"anims/left move" = ExtResource( 6 )
+"anims/right attack" = ExtResource( 22 )
+"anims/right hurt" = ExtResource( 12 )
+"anims/right idle" = ExtResource( 11 )
+"anims/right move" = ExtResource( 19 )
+"anims/up attack" = ExtResource( 34 )
+"anims/up hurt" = ExtResource( 31 )
+"anims/up idle" = ExtResource( 33 )
+"anims/up left attack" = ExtResource( 26 )
+"anims/up left hurt" = ExtResource( 21 )
+"anims/up left idle" = ExtResource( 29 )
+"anims/up left move" = ExtResource( 15 )
+"anims/up move" = ExtResource( 2 )
+"anims/up right attack" = ExtResource( 9 )
+"anims/up right hurt" = ExtResource( 25 )
+"anims/up right idle" = ExtResource( 17 )
+"anims/up right move" = ExtResource( 28 )
